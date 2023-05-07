@@ -84,3 +84,9 @@ class MemberDetail(APIView):
 # class MemberViewSet(viewsets.ModelViewSet):
 #     queryset = Member.objects.all()
 #     serializer_class = MemberSerializer
+
+# _____________________________________________________________________________________________
+# 생각해보기 3
+# 위의 코드들은 CBV 방식으로 작성되었습니다.
+# FBV 방식을 사용한다면 위와 같은 기능 구현을 위해
+# 어떤 코드를 작성하면 될까요?
