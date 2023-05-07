@@ -64,11 +64,14 @@
 
 ## 🔥 용어 정의
 
-models.py -> DB 구축
-DB -> serializer 사용 -> json
-json-> deserializer -> DB
+- models.py 를 통해 DB 구축
+- DB -> serializer 사용 -> json
+- json-> deserializer -> DB
+
+![](https://velog.velcdn.com/images/cutehypretty/post/6b7bd5b3-75f7-4fdd-8a94-37bc66d96168/image.png)
 
 ✔️ 직렬화(serialization): 객체를 문자열 또는 바이트로 변환하여 데이터를 전송하는 과정
+
 ✔️ 역직렬화(Deserialization): 수신한 바이트를 다시 객체로 변환(메모리 상의 복원)하는 과정
 
 ---
@@ -109,13 +112,17 @@ class PostSerializer(ModelSerializer):
 - Form 과 ModelForm은 form 태그가 포함된 HTML을 생성
 - Serializer와 ModelSerializer는 form 데이터가 포함된 JSON 타입의 문자열을 생성
 
+![](https://velog.velcdn.com/images/cutehypretty/post/804dd0d0-32e6-4303-b657-d7c50bb23096/image.png)
+
 ---
 
 ## 🔥 기초 흐름
 
-app 생성 및 urls.py 설정이 완료되어있다고 가정
+![](https://velog.velcdn.com/images/cutehypretty/post/e3176a64-f6ee-476c-bf4a-66dfa5221b90/image.png)
 
 ---
+
+(app 생성 및 urls.py 설정이 완료되어있다고 가정)
 
 ### ✔️ 1.1 DB model 생성
 
