@@ -10,3 +10,6 @@ urlpatterns = [
 ]
 
 urlpatterns = format_suffix_patterns(urlpatterns)
+
+# Q4. 
+# 12번 line의 코드는 어떤 의미일까요?
